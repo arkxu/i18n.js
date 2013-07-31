@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample</title>
+    <script type="text/javascript" src="i18n.js"></script>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+      var dic = {
+        en:{
+          hello: 'hello world'
+        },
+        zh:{
+          hello: '你好'
+        }
+      };
+
+      i18n.setDictionary(dic);
+      alert(i18n.t('hello'));
+    </script>
+  </body>
+</html>
